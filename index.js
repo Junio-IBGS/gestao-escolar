@@ -7,7 +7,7 @@ const form = {
   passwordRequiredError: () => document.getElementById("password-required-error"),
   recoverPasswordButton: () => document.getElementById("recover-password-button"),
 }
-
+  alert("login email: teste@teste.com senha: 123456");
 firebase.auth().onAuthStateChanged(user => {
   if (user) {
       window.location.href = "../sis/menu.html";
