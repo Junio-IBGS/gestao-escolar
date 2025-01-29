@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+  color: #323232;
+}
+
+header,
+main,
+footer {
+  padding-left: 240px;
+}
+
+
+
+
+
+main {
+  height: 100%;
+  
+  margin: 20px 5px ;
+  padding-bottom: 2px;
+}
+
+
+main img {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+@media only screen and (max-width: 992px) {
+
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+}
+
+#credits li,
+#credits li a {
+  color: white;
+}
+
+#credits li a {
+  font-weight: bold;
+}
+
+.footer-copyright .container,
+.footer-copyright .container a {
+  color: #BCC2E2;
+}
+
+.fab-tip {
+  position: fixed;
+  right: 85px;
+  padding: 0px 0.5rem;
+  text-align: right;
+  background-color: #323232;
+  border-radius: 2px;
+  color: #FFF;
+  width: auto;
+}
+option{
+  color: #323232;
+}
+
+form#add {
+  padding: 20px;
+  margin-top: 120px;
+  align-items: center;
+  color: black;
+}
+
+main#cont {
+  padding: 2px;
+  margin-top: 10px;
+  color: black;
+  margin-left: 260px;
+
+}
+
+form.editar {
+  padding: 2px;
+  margin: 5px;
+}
+
+::placeholder {
+  color: black;
+}
+
+
+input {
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+div .botao{
+  display: flex;
+  justify-content: center;
+}
+.editar .botao{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-2 {
+  background: #323232;
+  color: white;
+  border: none;
+  
+}
+
+
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-2:hover {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+nav #selecionado {
+  background: white;
+  border-radius: 1px;
+  color: black;
+}
+
+nav #delete {
+  background: rgba(139, 0, 0, 0.773);
+  border-radius: 1px;
+}
+
+input#delete {
+  background: darkred;
+  color: whitesmoke;
+}
+
+table#tabela {
+  background-color: #323232;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: url(img/pexels-led-supermarket-577514.jpg) no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+.form-box {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background: transparent;
+  border: 2px solid goldenrod;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+h2 {
+  font-size: 2em;
+  color: #fff;
+  text-align: center
+}
+
+.inputbox {
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid goldenrod
+}
+
+.inputbox label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1em;
+  pointer-events: none;
+  transition: .5s
+}
+
+input:focus~label,
+input:valid~label {
+  top: -5px
+}
+
+.inputbox input {
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 0 35px 0 5px;
+  color: #fff
+}
+
+.inputbox>i {
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 1.2em;
+  top: 20px
+}
+
+.forget {
+  margin: -15px 0 15px;
+  font-size: .9em;
+  color: #fff;
+  display: flex;
+  justify-content: center
+}
+
+.forget label input {
+  margin-right: 3px
+}
+
+.forget label a {
+  color: goldenrod;
+  text-decoration: none
+}
+
+.forget label a:hover {
+  text-decoration: underline
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background-color: goldenrod;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600
+}
+
+form .cod-aula{
+  width: 30%;
+  padding: 0;
+  text-transform: uppercase;
+  
+}
+
+
+.register {
+  font-size: .6em;
+  color: #fff;
+  text-align: center;
+  margin: 25px 0 10px
+}
+
+.register p a {
+  text-decoration: none;
+  color: goldenrod;
+  font-weight: 50;
+
+}
+
+.register p a:hover {
+  text-decoration: underline
+}
+
+/*///////////////////////*/
+
+main iframe{
+  width: 100%;
+  height: 90vh;
+
+  
+}
+
+
+
+/*PERFIL*/
+
+#perfil{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.fomrperfil{
+ width: 70%;
+ padding-left: 20px;
+ padding: 30px;
+ border: 2px solid #323232;
+ border-radius: 10px;
+ box-shadow: 40px -10px 15px lightgray;
+}
+
+.fomrperfil input.upimg{
+  border: 1px solid #323232;
+  width: 380px;
+  box-shadow: 15px -5px 12px lightgray;
+  }
+
+  .fomrperfil input.material-icons{
+    padding: 10px;
+  }
+
+main div.ftperfil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Menu*/
+
+main#atalhos{
+  float: center;
+  height: 70vh;
+  width: 100%;
+  }
+
+  main#atalhos i{
+    color: #323232;
+  }
+

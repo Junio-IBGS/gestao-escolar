@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Neumorphism Login Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css"><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main">
+      
+      <div class="container b-container" id="b-container">
+        <form class="form" id="b-form" method="post" action="">
+          <h2 class="form_title title">Login</h2>
+          <input class="form__input" type="email" id="email" name="email" placeholder="Email">
+          <input class="form__input" type="password" id="password" name="password" placeholder="Senha">
+          <a onclick="recoverpassword()" class="form__link">Esqueceu sua senha?</a>
+          <button type="submit" onclick="login()" class="form__button button submit">Login</button>
+        </form>
+      </div>
+      <div class="switch" id="switch-cnt">
+        <div class="switch__circle"></div>
+        <div class="switch__circle switch__circle--t"></div>
+        <div class="switch__container" id="switch-c1">
+          <h2 class="switch__title title">Novo Usuário?</h2>
+          <p class="switch__description description">Cadastre-se para ter acesso ao sistema.</p>
+          <button  class=" button "><a style="text-decoration: none; color: white;" href="register.html">Cadastrar</a></button>
+        </div>
+        
+      </div>
+    </div>
+    
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+  <script src="index.js"></script>
+  <script src="validations.js"></script>
+  <script src="register.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+  <script src="firebase-init.js"></script>
+  <script src="menu.js"></script>
+
+</body>
+</html>
